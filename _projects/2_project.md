@@ -1,80 +1,20 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Event Organization
+description: Some Schools, Workshops & Conferences I helped to organize
+img: assets/img/kilpisjarvi13.jpg
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+- [Math-Phys seminar series](https://www2.helsinki.fi/en/researchgroups/mathematical-physics/seminars-and-workshops)  Department of Mathematics & Statistics, University of Helsinki, from 2006
+- [AtMath 2021 Zoom-Workshop](https://wiki.helsinki.fi/display/AtMath/AtMath+Zoom+Workshop+2020), online-event, October 9  2020.
+- [AtMath Himos 2020 Workshop](https://wiki.helsinki.fi/display/AtMath/Himos+2020), Himos, Finland, January 20-24 2020.
+- [EQS2019: Summer School on Engineered Quantum Systems](https://qtd2019.aalto.fi/eqs2019/), Helsinki, Finland, 28-30 June 2019.
+- [AtMath Hyytiälä 2018 Workshop](https://wiki.helsinki.fi/pages/viewpage.action?pageId=260739362&src=sidebar), [Hyytiälä Forestry Field Station](https://www.helsinki.fi/en/research-stations/hyytiala-forestry-field-station), 26-28 September, 2018.
+- [AtMath Kick-off conference](http://wiki.helsinki.fi/display/AtMath/Levi+2017), Levi, Finland, November 20-24, 2017.
+- [Graduate Arctic School on Open Quantum Systems](http://arcticschool.aalto.fi/arctic-school/), Kevo, Finalnd September 10-15, 2017.
+- [Conference From Field Theory to Non-Equilibrium](http://www.fuw.edu.pl/%7Esuszek/K-Fest_2017.html),  in honour of Krzysztof Gawędzki on the occasion of his 70th birthday, June 19-21, 2017, Nice, France
+- [Graduate Arctic School on Open Quantum Systems](http://wiki.helsinki.fi/display/mathphys/Arctic+School+on+Open+Quantum+Systems), Kilpisjärvi Finland, December 14-18, 2015.
+- [Conference Mathematics meets Physics](http://wiki.helsinki.fi/display/mathphys/mathphys2014) , Helsinki June 24-27, 2014.
+- [Workshop Networks and Algorithms: complexity in Mathematics, Physics and Computer Science](http://mathstat.helsinki.fi/mathphys/evergrow.html) Helsinki, June 16 - 19, 2005.
