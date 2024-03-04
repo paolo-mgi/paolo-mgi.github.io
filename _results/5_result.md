@@ -4,7 +4,7 @@ description: Markovian dynamics on the system's Bloch hyper-sphere.
 ---
 <h4> 
 <!-- Stochastic Schr&ouml;dinger Equation for -->
-Unraveling of Completely Bounded Divisible Dynamical Maps
+Unraveling of Completely Bounded Dynamical Maps
 </h4>
 
 
@@ -13,7 +13,7 @@ Unraveling of Completely Bounded Divisible Dynamical Maps
 	<div class="slideshow-container">
     	    <div class="mySlides_Influence fade">
     		<div class="numbertext">1 / 3</div>
-        	{% include figure.html path="assets/img/John_Quang.jpg" title="Influence 1" class="img-fluid rounded z-depth-1" caption="Qunatum revivals captured by the influence martingale" %}
+        	{% include figure.html path="assets/img/John_Quang.jpg" title="Influence 1" class="img-fluid rounded z-depth-1" caption="Quantum revivals captured by the influence martingale" %}
     	    </div>
     	    <div class="mySlides_Influence fade">
     		<div class="numbertext">2 / 3</div>
@@ -36,7 +36,7 @@ Unraveling of Completely Bounded Divisible Dynamical Maps
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
            $$ \boldsymbol{\rho}_{t} = \operatorname{E} \Big{(}\mu_{t}\boldsymbol{\psi}_{t}\boldsymbol{\psi}_{t}^{\dagger}\Big{)} $$
-<a href="https://arxiv.org/abs/2102.10355">We proved</a> that any completely bounded divisible dynamical maps admis a representation as a statistical average over the solution of a Markov process taking values in the Hilbert state of the open quantum system. Applications are time continuous measurement interpretation and numerically efficient Monte Carlo algorithms for quantum master equation generating a semi-group.  
+<a href="https://www.nature.com/articles/s41467-022-31533-8">We proved</a> that the most general quantum master equation, the completely bounded master equation, may be solved by averaging over the realizations of a Markov process in the Hilbert state of the open quantum system. <a href="https://iopscience.iop.org/article/10.1088/1367-2630/acd4dc">We later further developed</a> the theory to prove the existence of a duality at the level of unraveling between completely positive and completely bounded master equations. These results have interesting applications to <a href="https://arxiv.org/abs/2305.19874">quantum error mitigation</a>. An efficient numerical implementation of the influence martingale is now available in QuTip v5 as `nm_solve'. The tutorial is <a href="https://github.com/qutip/qutip-tutorials/blob/main/tutorials-v5/time-evolution/013_nonmarkovian_monte_carlo.md">in github</a>.  
     </div>
 </div>
 <div class="caption">
