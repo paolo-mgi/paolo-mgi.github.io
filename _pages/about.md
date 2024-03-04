@@ -32,8 +32,8 @@ My research interests revolve around topics in mathematical statistical physics,
 
 My [publications](/publications) range from the theory of fluid turbulence to the study of micro and nano-scale systems whose statistical evolution laws may require classical, semi-classical or purely quantum descriptions. 
 
-- My [Google Scholar](https://scholar.google.com/citations?user=nUb-HxQAAAAJ), [arXiv.org](http://arxiv.org/a/muratoreginanneschi_p_1), 
- [WoS](https://www.webofscience.com/wos/author/rid/E-6529-2012), [NASA/ADS](https://ui.adsabs.harvard.edu/search/q=author%3Amuratore-ginanneschi%2Cp&sort=date%20desc%2C%20bibcode%20desc&p_=0) and [ORCID](https://orcid.org/0000-0003-0241-6619) profiles.
+- My [Google Scholar](https://scholar.google.com/citations?user=nUb-HxQAAAAJ), [arXiv.org](http://arxiv.org/a/muratoreginanneschi_p_1), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=6602783690), 
+ [WoS](https://www.webofscience.com/wos/author/rid/E-6529-2012), [NASA/ADS](https://ui.adsabs.harvard.edu/search/q=author%3Amuratore-ginanneschi%2Cp&sort=date%20desc%2C%20bibcode%20desc&p_=0), and [ORCID](https://orcid.org/0000-0003-0241-6619) profiles.
 - My [Researchportal](https://researchportal.helsinki.fi/en/persons/paolo-muratore-ginanneschi) pages at University of Helsinki
 
 
