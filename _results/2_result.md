@@ -19,6 +19,6 @@ A beautiful <a href="http://doi.org/10.1007/BF01391828"> result </a> by Robin Fo
 Functional determinants occurring in the stationary action approximation in finite dimensional Quantum Mechansics and non-equilibrium Statistical Mechanics
 admit an explicit expression for any elliptic boundary conditions. 
 <br/>
-In <a href="/publications#10.1016/S0370-1573(03)00212-6">my Physics Report </a>, I used Forman's result to present a new derivation of Gutzwiller's trace formula.
+In <a href="http://doi.org/10.1016/S0370-1573(03)00212-6y">my Physics Report </a>, I used Forman's result to present a new derivation of Gutzwiller's trace formula.
 In my view functional determinant theory offers a particularly appealing way to understand topological invariance of Masolv and Conley and Zehnder indices in periodic orbit theory. 
 </div>
