@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 - I got my Ph.D. in Theoretical Physics from [Niels Bohr Institute](https://nbi.ku.dk/) at the University of Copenhagen, working under the joint supervision of Prof. [Mogens H. Jensen](http://www.nbi.dk/~mhjensen/) (NBI-Copenhagen) and Prof. [Erik Aurell](http://www.csc.kth.se/forskning/cb/cbp/homepages/eaurell/kth_homepage.html) (KTH-Stockholm). My Ph.D. studies were supported by an individual [Marie Curie](https://cordis.europa.eu/project/id/FMBI961866) fellowship funded by the European Commission under FP4-TMR (Grant agreement ID: FMBI961866).
 - I later joined the [Mathematical Physics](https://www2.helsinki.fi/en/researchgroups/mathematical-physics) group led by Prof. [Antti Kupiainen](https://wiki.helsinki.fi/display/mathphys/antti) at University of Helsinki.
 - I am University Researcher at the University of Helsinki where I am Adjunct Professor in Mathematical Physics.
-- I am also Adjunct Professor in Open Quantum Systems at [Aalto University School of Science](https://www.aalto.fi/en/school-of-science) where I am part of the [Pico - Quantum Phenomena and Devices -](https://www.aalto.fi/en/department-of-applied-physics/pico-quantum-phenomena-and-devices) group.
+- I am also Adjunct Professor in Open Quantum Systems at [Aalto University School of Science](https://www.aalto.fi/en/school-of-science) where I collaborate with the [Pico - Quantum Phenomena and Devices -](https://www.aalto.fi/en/department-of-applied-physics/pico-quantum-phenomena-and-devices) group.
 - I lived in Italy, Denmark, Sweden and Finland where I am currently based.
 
 

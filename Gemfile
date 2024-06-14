@@ -18,3 +18,6 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
 end
+
+gem "faraday-retry", "~> 2.2"
+gem "liquid", "~> 4.0.4"
