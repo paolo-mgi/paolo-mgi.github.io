@@ -1,0 +1,156 @@
+"Chruściński":
+  - firstname: ["Dariusz", "D."]
+    url: http://fizyka.umk.pl/~darch/
+
+"Kimura":
+  - firstname: ["Gen", "G."]
+    url: https://qsys.se.shibaura-it.ac.jp/kimura/index_en.html
+
+"Baldovin":
+  - firstname: ["Marco", "M."]
+    url: https://marcobaldo.vin
+
+"Sanders":
+  - firstname: ["Julia", "Julia Anna", "J.", "J.A."]
+    url: https://researchportal.helsinki.fi/en/persons/julia-anna-sanders
+
+"Vulpiani":
+  - firstname: ["Angelo", "A."]
+    url: http://denali.phys.uniroma1.it/twiki/bin/view/TNTgroup/AngeloVulpiani
+
+"Aurell":
+  - firstname: ["Erik", "E."]
+    url: https://www.csc.kth.se/forskning/cb/cbp/homepages/eaurell/kth_homepage.html
+
+"Kupiainen":
+  - firstname: ["Antti", "A."]
+    url: https://wiki.helsinki.fi/display/mathphys/antti
+
+"Peliti": 
+  - firstname: ["Luca", "L."]
+    url: https://www.peliti.org/
+
+"Gawȩdzki":
+  - firstname: ["Krzysztof", "K."]
+    url: https://en.wikipedia.org/wiki/Krzysztof_Gawedzki
+
+"Mazzino":
+  - firstname: ["Andrea", "A."]
+    url: http://www3.dicca.unige.it/mazzino/index.html
+
+"Ankerhold":
+- firstname: ["Joachim", "J."]
+  url: https://www.uni-ulm.de/nawi/institute-for-complex-quantum-systems/team/members-of-the-institute/prof-dr-joachim-ankerhold/
+
+"Cencini":
+ - firstname: ["Massimo", "M."]
+   url: https://www.isc.cnr.it/staff-members/massimo-cencini/
+
+"Pekola":
+ - firstname: ["Jukka", "J.", "Jukka P.", "J. P."]
+   url: http://ltl.tkk.fi/PICO/wordpress/?page_id=20
+   
+"Donvil":
+ - firstname: ["Brecht", "B.", "Brecht I. C."]
+   url: https://scholar.google.com/citations?user=quFFd5oAAAAJ&hl=en&oi=sra
+
+"Mejía-Monasterio":
+ - firstname: ["Carlos", "C."]
+   url: http://www.gsc.upm.es/dsc/carlos-mejias-monasterio/
+
+"Schwieger":
+ - firstname: ["Kay", "K."]
+   url: https://de.linkedin.com/in/kay-schwieger-b544b010a
+
+"Chetrite":
+ - firstname: ["Raphaël", "R."]
+   url: https://math.unice.fr/laboratoire/fiche%26id%3d408.html
+
+"Golubev":
+ - firstname: ["Dmitry", "D."]
+   url: https://scholar.google.com/citations?user=74Y3aioAAAAJ&hl=en&oi=ao
+
+"Musacchio":
+ - firstname: ["Stefano", "S."]
+   url: https://scholar.google.com/citations?user=JXEl3hwAAAAJ&hl=en&oi=ao
+
+"Boffetta":
+ - firstname: ["Guido", "G."]
+   url: http://personalpages.to.infn.it/~boffetta/
+
+"Martins Afonso":
+ - firstname: ["Marco", "M."]
+   url: http://marcomartinsafonso.epizy.com/?i=1
+
+"Antonov":
+ - firstname: ["Nikolaj", "Nikolay", "Nikolai", "Nikolaj V.", "Nikolay V.", "Nikolai V.", "N.", "N. V." ]
+   url: https://arxiv.org/a/antonov_n_1.html
+
+"Celani":
+ - firstname: ["Antonio", "A."]
+   url: https://scholar.google.com/citations?user=a5JvBbgAAAAJ
+
+"Fanelli":
+ - firstname: ["Duccio", "D."]
+   url: http://www.complexworld.net/duccio-fanelli
+
+"Andersen":
+ - firstname: ["Ken H.", "K. H." ]
+   url: https://ken.haste.dk/
+
+"Mohayaee":
+ - firstname: ["Roya", "R." ]
+   url: https://scholar.google.com/citations?user=Jp25qQoAAAAJ
+
+"Honkonen":
+ - firstname: ["Juha", "J." ]
+   url: https://scholar.google.com/citations?hl=en&user=KermdKgAAAAJ
+
+"Adzhemyan":
+ - firstname: ["Loran Ts.", "Loran", "L. Ts." ]
+   url: https://scholar.google.com/citations?user=9rXyRssAAAAJ&hl=en
+
+"Castiglione":
+ - firstname: ["Patrizia", "P."]
+   url: https://fr.linkedin.com/in/patrizia-castiglione-78914638
+
+"Runov":
+ - firstname: ["Anton R.", "A. R."]
+   url: https://arxiv.org/search/chao-dyn?searchtype=author&query=Runov%2C+A+V
+
+"Petri":
+ - firstname: ["Alberto", "A."]
+   url: https://scholar.google.com/citations?user=tzIaiJwAAAAJ
+
+"Falcioni":
+ - firstname: ["Massimo", "M."]
+   url: https://inspirehep.net/authors/1010407
+
+"Marini Bettolo Marconi":
+ - firstname: ["Umberto", "U."]
+   url: https://scholar.google.it/citations?user=CK9gwqwAAAAJ&hl=en
+
+"Gama":
+ - firstname: ["Sı́lvio M. A.", "S. M. A."]
+   url: https://www.researchgate.net/profile/Silvio-Gama
+
+"Sozza":
+ - firstname: ["Alessandro", "A."]
+   url: https://orcid.org/0000-0002-6276-0641
+
+"Boi":
+ - firstname: ["Simone", "S."]
+   url: https://ch.linkedin.com/in/simone-boi-b9aa75109
+
+"Olivieri":
+ - firstname: ["Stefano", "S."]
+   url: https://orcid.org/0000-0002-7795-6620
+
+"Galperin":
+ - firstname: ["Yuri", "Y.", "Yuri M."]
+   url: https://scholar.google.com/citations?user=69m99hIAAAAJ&hl=en
+   
+"Lechler":
+- firstname: ["Rochus", "R."]
+  url: https://www.uni-ulm.de/en/nawi/institute-for-complex-quantum-systems/team/members-of-the-institute-1/
+
