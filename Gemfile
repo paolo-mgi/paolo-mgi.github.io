@@ -18,3 +18,7 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
 end
+
+gem "faraday-retry", "~> 2.2"
+gem "observer", "~> 0.1.2"
+gem "csv", "~> 3.3"
