@@ -17,4 +17,7 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
+    gem 'observer'
+    gem 'faraday-retry'
+    gem 'csv'
 end
