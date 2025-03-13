@@ -9,7 +9,7 @@ category: work
 
 - [OQS2023](https://instituteq.fi/oqs2023/)  Open Quantum Systems and Mesoscopic Physics, Hyytiälä Forest Station, Finland June 4-9 2023.
 - [Math-Phys seminar series](https://www2.helsinki.fi/en/researchgroups/mathematical-physics/seminars-and-workshops)  Department of Mathematics & Statistics, University of Helsinki, from 2006.
-- [AtMath 2021 Zoom-Workshop](https://wiki.helsinki.fi/display/AtMath/AtMath+Zoom+Workshop+2020), online-event, October 9  2020.
+- [AtMath 2021 Zoom-Workshop]{%(https://wiki.helsinki.fi/display/AtMath/AtMath+Zoom+Workshop+2020)%}, online-event, October 9  2020.
 - [AtMath Himos 2020 Workshop](https://wiki.helsinki.fi/display/AtMath/Himos+2020), Himos, Finland, January 20-24 2020.
 - [EQS2019: Summer School on Engineered Quantum Systems](https://qtd2019.aalto.fi/eqs2019/), Helsinki, Finland, 28-30 June 2019.
 - [AtMath Hyytiälä 2018 Workshop](https://wiki.helsinki.fi/pages/viewpage.action?pageId=260739362&src=sidebar), [Hyytiälä Forestry Field Station](https://www.helsinki.fi/en/research-stations/hyytiala-forestry-field-station), 26-28 September, 2018.
