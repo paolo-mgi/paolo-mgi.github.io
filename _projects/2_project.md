@@ -6,7 +6,7 @@ img: assets/img/kilpisjarvi13.jpg
 importance: 2
 category: work
 ---
-
+- [OQS2025](https://instituteq.fi/open-quantum-systems-and-mesoscopic-physics-2025) Open Quantum Systems and Mesoscopic Physics, Vierumäki, Finland 8-12 December 2025,
 - [OQS2023](https://instituteq.fi/oqs2023/)  Open Quantum Systems and Mesoscopic Physics, Hyytiälä Forest Station, Finland June 4-9 2023.
 - [Math-Phys seminar series](https://www2.helsinki.fi/en/researchgroups/mathematical-physics/seminars-and-workshops)  Department of Mathematics & Statistics, University of Helsinki, from 2006.
 - AtMath 2021 Zoom-Workshop, online-event, October 9  2020.
