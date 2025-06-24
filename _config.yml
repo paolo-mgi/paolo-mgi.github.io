@@ -13,7 +13,7 @@ footer_text: >
 keywords: muratore-ginanneschi, paolo, jekyll, jekyll-theme, Landauer's principle, completely bounded dynamical map, influence martingale, stochastic optimal control, Gutzwiller trace formula 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/favicon.ico     # favicon from _includes/head.html
+icon: /assets/img/site.icon     # favicon from _includes/head.html
 #icon:  🐈 # the emoji used as favicon I copied from https://emojis.wiki/cat/
 url: https://paolo-mgi.github.io  # the base hostname & protocol for your site
 baseurl:                          #/al-folio the subpath of your site, e.g. /blog/
