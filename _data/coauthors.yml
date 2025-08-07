@@ -29,7 +29,10 @@
 "Baldovin":
   - firstname: ["Marco", "M."]
     url: https://marcobaldovin.wordpress.com/
+<<<<<<< HEAD
 #    url: https://scholar.google.com/citations?user=OFAHyZcAAAAJ&hl=it 
+=======
+>>>>>>> beb98589 (Version of 2025.08.07)
 
 "Sanders":
   - firstname: ["Julia", "Julia Anna", "J.", "J.A."]
