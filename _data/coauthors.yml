@@ -28,8 +28,8 @@
 
 "Baldovin":
   - firstname: ["Marco", "M."]
-    url: https://marcobaldo.vin
-
+#    url: https://marcobaldo.vin
+    url: https://scholar.google.com/citations?user=OFAHyZcAAAAJ&hl=it 
 "Sanders":
   - firstname: ["Julia", "Julia Anna", "J.", "J.A."]
     url: https://julia-sand.github.io/
