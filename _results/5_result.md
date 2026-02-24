@@ -13,7 +13,7 @@ Unraveling of Completely Bounded Dynamical Maps
 		<div class="slideshow-container">
     	    <div class="mySlides_Influence fade">
     		<div class="numbertext">1 / 3</div>
-        	{% include figure.html path="assets/img/John_Quang.jpg" title="Influence 1" class="img-fluid rounded z-depth-1" caption="Quantum revivals captured by the influence martingale" %}
+        	{% include figure.html path="assets/img/John_Quang.jpg" title="John & Quang model" class="img-fluid rounded z-depth-1" caption="Quantum revivals captured by the influence martingale" %}
     	    </div>
     	    <div class="mySlides_Influence fade">
     		<div class="numbertext">2 / 3</div>
