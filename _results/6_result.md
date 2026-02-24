@@ -9,11 +9,11 @@ Bound on the relaxation rates of solutions a quantum master equation
 <div class="row">
 	<div class="col-sm-6 mt-3 mt-md-0">
  		<div class="slideshow-container">
-			<div class="mySlides_LGKS fade">
+			<div class="mySlides fade">
 				<div class="numbertext">1 / 2</div>
 				{% include figure.html path="assets/img/ImageRomp.png" title="The secret limits governing quantum relaxation" class="img-fluid rounded z-depth-1" caption="Which conditions does the Universal quantum relaxation rate require? (Courtesy: Gen Kimura)" %}
 			</div>
-			<div class="mySlides_LGKS fade">
+			<div class="mySlides fade">
 			<div class="numbertext">2 / 2</div>
 			{% include figure.html path="assets/img/qme_rates.jpg" title= "Upper bounds" class="img-fluid rounded z-depth-1" caption="Rates versus positivity class" %}
 			</div>
