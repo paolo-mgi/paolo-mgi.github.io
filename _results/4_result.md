@@ -35,17 +35,17 @@ Refined Second Law for Markov Processes
         	{% include figure.html path="assets/img/erasure.jpg" title="Erasure" class="img-fluid rounded z-depth-1" caption="Consequences of speed constraints on the protocol" %}
 	    </div>  
   	<!-- Next and previous buttons -->
-  	    <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
-  	    <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+  	    <a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
+  	    <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
 	</div>
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(1,2)"></span>
+  <span class="dot" onclick="currentSlide(2,2)"></span>
+  <span class="dot" onclick="currentSlide(3,2)"></span>
+  <span class="dot" onclick="currentSlide(4,2)"></span>
+  <span class="dot" onclick="currentSlide(5,2)"></span>
+  <span class="dot" onclick="currentSlide(6,2)"></span>
 </div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">

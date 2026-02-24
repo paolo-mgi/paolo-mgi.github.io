@@ -9,22 +9,22 @@ Bound on the relaxation rates of solutions a quantum master equation
 <div class="row">
 	<div class="col-sm-6 mt-3 mt-md-0">
  		<div class="slideshow-container">
-			<div class="mySlides fade">
+			<div class="mySlides_LGKS fade">
 				<div class="numbertext">1 / 2</div>
 				{% include figure.html path="assets/img/ImageRomp.png" title="The secret limits governing quantum relaxation" class="img-fluid rounded z-depth-1" caption="Which conditions does the Universal quantum relaxation rate require? (Courtesy: Gen Kimura)" %}
 			</div>
-			<div class="mySlides fade">
+			<div class="mySlides_LGKS fade">
 			<div class="numbertext">2 / 2</div>
 			{% include figure.html path="assets/img/qme_rates.jpg" title= "Upper bounds" class="img-fluid rounded z-depth-1" caption="Rates versus positivity class" %}
 			</div>
 			<!-- Next and previous buttons -->
-			<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+			<a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1,0)">&#10095;</a>
 		</div>
 		<!-- The dots/circles -->
 		<div style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span>
-			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(1,0)"></span>
+			<span class="dot" onclick="currentSlide(2,0)"></span>
 		</div>
 	</div>
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -34,4 +34,3 @@ Bound on the relaxation rates of solutions a quantum master equation
 <div class="caption">
 One reason that makes the bound particularly interesting because has no classical counterpart. as such it is a distinctive trait of open quantum system dynamics. The bound was conjectured by Kimura in the early 00's of this century and remained unproven for about two decades.
  </div>
-
