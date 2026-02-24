@@ -14,7 +14,7 @@ Bound on the relaxation rates of solutions a quantum master equation
 			</div>
 			<div class="mySlides_LGKS fade">
 				<div class="numbertext">2 / 2</div>
-				{% include figure.html path="assets/img/qme_rates.jpg" title="Bound on the largest relaxation rate" class="img-fluid rounded z-depth-1" %}
+				{% include figure.html path="assets/img/qme_rates.jpg" title="Bound on the largest relaxation rate" class="img-fluid rounded z-depth-1" caption="Relaxation rate bound versus positivity class" %}
 			</div>
 			<!-- Next and previous buttons -->
 			<a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
