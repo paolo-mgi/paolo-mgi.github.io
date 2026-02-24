@@ -16,7 +16,7 @@ Refined Second Law for Markov Processes
     	    </div>
     	    <div class="mySlides_Landauer fade">
     	    <div class="numbertext">2 / 6</div>
-    	    {% include figure.html path="assets/img/ep_jointpdf_V4.pdf" title="Erasure of 1 bit of memory: phase space" class="img-fluid rounded z-depth-1" caption="Phase space probability density evolution during erasure: contour plots and marginals"%}
+    	    {% include figure.html path="assets/img/ep_jointpdf_V4.png" title="Erasure of 1 bit of memory: phase space" class="img-fluid rounded z-depth-1" caption="Phase space probability density evolution during erasure: contour plots and marginals"%}
     	    </div>
     	    <div class="mySlides_Landauer fade">
     		<div class="numbertext">3 / 6</div>
