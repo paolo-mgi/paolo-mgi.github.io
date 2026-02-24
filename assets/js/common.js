@@ -1,60 +1,42 @@
-$(document).ready(function () {
-  // add toggle functionality to abstract, award and bibtex buttons
-  $("a.abstract").click(function () {
-    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.award").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
-  });
-  $("a").removeClass("waves-effect waves-light");
+$(document).ready(function() {
+    $('a.abstract').click(function() {
+        $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
+    });
+    $('a.bibtex').click(function() {
+        $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
+    });
+    $('.navbar-nav').find('a').removeClass('waves-effect waves-light');
+});
 
-  // bootstrap-toc
-  if ($("#toc-sidebar").length) {
-    // remove related publications years from the TOC
-    $(".publications h2").each(function () {
-      $(this).attr("data-toc-skip", "");
-    });
-    var navSelector = "#toc-sidebar";
-    var $myNav = $(navSelector);
-    Toc.init($myNav);
-    $("body").scrollspy({
-      target: navSelector,
-      offset: 100,
-    });
+/* --- Existing al-folio code ends here --- */
+
+// --- START YOUR SLIDESHOW CODE ---
+var slideIndex = [1, 1, 1]; 
+var slideId = ["mySlides_LGKS", "mySlides_Influence", "mySlides_Landauer"];
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (!x || x.length === 0) return; // Guard against missing sliders
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.setProperty("display", "none", "important"); 
   }
+  x[slideIndex[no]-1].style.setProperty("display", "block", "important");
+}
 
-  // add css to jupyter notebooks
-  const cssLink = document.createElement("link");
-  cssLink.href = "../css/jupyter.css";
-  cssLink.rel = "stylesheet";
-  cssLink.type = "text/css";
+// These MUST be global so the HTML 'onclick' can see them
+window.plusSlides = function(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+window.currentSlide = function(n, no) {
+  showSlides(slideIndex[no] = n, no);
+}
 
-  let jupyterTheme = determineComputedTheme();
-
-  $(".jupyter-notebook-iframe-container iframe").each(function () {
-    $(this).contents().find("head").append(cssLink);
-
-    if (jupyterTheme == "dark") {
-      $(this).bind("load", function () {
-        $(this).contents().find("body").attr({
-          "data-jp-theme-light": "false",
-          "data-jp-theme-name": "JupyterLab Dark",
-        });
-      });
-    }
-  });
-
-  // trigger popovers
-  $('[data-toggle="popover"]').popover({
-    trigger: "hover",
-  });
+// Auto-start when page loads
+$(document).ready(function() {
+    showSlides(1, 0);
+    showSlides(1, 1);
+    showSlides(1, 2);
 });
