@@ -1,5 +1,6 @@
 ---
 name: Universal bound on the relaxation rates of maps solving a quantum master equation.
+description:
 ---
 <h4> 
 Bound on the relaxation rates of solutions a quantum master equation
@@ -14,7 +15,7 @@ Bound on the relaxation rates of solutions a quantum master equation
 			</div>
 			<div class="mySlides_LGKS fade">
 			<div class="numbertext">2 / 2</div>
-			{% include figure.html path="assets/img/qme_rates.jpg" title="The upper bounds" class="img-fluid rounded z-depth-1" caption="Rates versus positivity class" %}
+			{% include figure.html path="assets/img/qme_rates.jpg" title= "Upper bounds" class="img-fluid rounded z-depth-1" caption="Rates versus positivity class" %}
 			</div>
 			<!-- Next and previous buttons -->
 			<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
