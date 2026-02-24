@@ -12,15 +12,15 @@ Refined Second Law for Markov Processes
 	<div class="slideshow-container">
     	    <div class="mySlides_Landauer fade">
     		<div class="numbertext">1 / 6</div>
-        	{% include figure.html path="assets/img/kl_land_driftv2.png" title="Erasure of 1 bit of memory" class="img-fluid rounded z-depth-1" caption="Probability density evolution during erasure: overdamped vs underdamped dynamics" %}
+        	{% include figure.html path="assets/img/kl_land_driftv2.png" title="Erasure of 1 bit of memory: configuration space" class="img-fluid rounded z-depth-1" caption="Probability density evolution during erasure: overdamped vs underdamped dynamics" %}
     	    </div>
     	    <div class="mySlides_Landauer fade">
-    		<div class="numbertext">2 / 6</div>
-        	{% include figure.html path="assets/img/landauer.jpg" title="Landauer's principle 1" class="img-fluid rounded z-depth-1" caption="Optimal overdamped erasure protocol" %}
+    	    <div class="numbertext">2 / 6</div>
+    	    {% include figure.html path="assets/img/ep_jointpdf_V4.pdf" title="Erasure of 1 bit of memory: phase space" class="img-fluid rounded z-depth-1" caption="Phase space probability density evolution during erasure: contour plots and marginals"%}
     	    </div>
     	    <div class="mySlides_Landauer fade">
     		<div class="numbertext">3 / 6</div>
-        	{% include figure.html path="assets/img/prob-threestates.jpg" title="Jump process" class="img-fluid rounded z-depth-1" caption="Optimal transition \( [0.9,0.05,0.05]\to [0.05,0.05,0.9] \) for a jump process"%}
+        	{% include figure.html path="assets/img/landauer.jpg" title="Landauer's principle 1" class="img-fluid rounded z-depth-1" caption="Optimal overdamped erasure protocol" %}
     	    </div>
     	    <div class="mySlides_Landauer fade">
     		<div class="numbertext">4 / 6</div>
