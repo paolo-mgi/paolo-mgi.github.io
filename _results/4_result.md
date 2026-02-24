@@ -11,27 +11,27 @@ Refined Second Law for Markov Processes
     <div class="col-sm-6 mt-3 mt-md-0">
 	<div class="slideshow-container">
     	    <div class="mySlides_Landauer fade">
-    		<div class="numbertext">1 / 5</div>
+    		<div class="numbertext">1 / 6</div>
         	{% include figure.html path="assets/img/kl_land_driftv2.png" title="Erasure of 1 bit of memory" class="img-fluid rounded z-depth-1" caption="Probability density evolution during erasure: overdamped vs underdamped dynamics" %}
     	    </div>
     	    <div class="mySlides_Landauer fade">
-    		<div class="numbertext">2 / 5</div>
+    		<div class="numbertext">2 / 6</div>
         	{% include figure.html path="assets/img/landauer.jpg" title="Landauer's principle 1" class="img-fluid rounded z-depth-1" caption="Optimal overdamped erasure protocol" %}
     	    </div>
     	    <div class="mySlides_Landauer fade">
-    		<div class="numbertext">3 / 5</div>
+    		<div class="numbertext">3 / 6</div>
         	{% include figure.html path="assets/img/prob-threestates.jpg" title="Jump process" class="img-fluid rounded z-depth-1" caption="Optimal transition \( [0.9,0.05,0.05]\to [0.05,0.05,0.9] \) for a jump process"%}
     	    </div>
     	    <div class="mySlides_Landauer fade">
-    		<div class="numbertext">4 / 5</div>
+    		<div class="numbertext">4 / 6</div>
         	{% include figure.html path="assets/img/gaussian_underdamped.jpg" title="Gaussian underdamped" class="img-fluid rounded z-depth-1" caption="Evolution of mean position and momentum for minimum entropy production transitions between Gaussian states for underdamped dynamics."%}
     	    </div>
     	    <div class="mySlides_Landauer fade">
-    		<div class="numbertext">5 / 5</div>
-        	{% include figure.html path="assets/img/valleymethod.jpg" title="Valey method" class="img-fluid rounded z-depth-1" caption="Erasure protocol between equilibria in the valley method description"%}
+    		<div class="numbertext">5 / 6</div>
+        	{% include figure.html path="assets/img/valleymethod.jpg" title="Valley method" class="img-fluid rounded z-depth-1" caption="Erasure protocol between equilibria in the valley method description"%}
     	    </div>
     	    <div class="mySlides_Landauer fade">
-    		<div class="numbertext">6 / 5</div>
+    		<div class="numbertext">6 / 6</div>
         	{% include figure.html path="assets/img/erasure.jpg" title="Erasure" class="img-fluid rounded z-depth-1" caption="Consequences of speed constraints on the protocol" %}
 	    </div>  
   	<!-- Next and previous buttons -->
@@ -45,6 +45,7 @@ Refined Second Law for Markov Processes
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
   <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
 </div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">

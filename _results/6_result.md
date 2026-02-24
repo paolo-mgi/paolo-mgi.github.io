@@ -6,7 +6,7 @@ Bound on the relaxation rates of solutions a quantum master equation
 </h4>
 
 <div class="row">
-	<div class="col-sm-6 mt-6 mt-md-0">
+	<div class="col-sm-6 mt-3 mt-md-0">
  		<div class="slideshow-container">
 			<div class="mySlides_LGKS-rates fade">
 				<div class="numbertext">1 / 2</div>
