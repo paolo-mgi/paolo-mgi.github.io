@@ -20,4 +20,9 @@ group :jekyll_plugins do
     gem 'observer'
     gem 'faraday-retry'
     gem 'csv'
+    gem 'ostruct'
 end
+
+gem "logger", "~> 1.6"
+
+gem "base64", "~> 0.2.0"
