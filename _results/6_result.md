@@ -13,12 +13,12 @@ Bound on the relaxation rates of solutions a quantum master equation
 				{% include figure.html path="assets/img/ImageRomp.png" title="The secret limits governing quantum relaxation" class="img-fluid rounded z-depth-1" caption="Which conditions does the Universal quantum relaxation rate require? (Courtesy: Gen Kimura)" %}
 			</div>
 			<div class="mySlides_LGKS fade">
-				<div class="numbertext">2 / 2</div>
+				<div class="numbertext">1 / 2</div>
 				{% include figure.html path="assets/img/qme_rates.jpg" title="Bound on the largest relaxation rate" class="img-fluid rounded z-depth-1" caption="Relaxation rate bound versus positivity class" %}
 			</div>
 			<!-- Next and previous buttons -->
-			<a class="prev" onclick="plusSlides(-1,1)">&#10093;</a>
-			<a class="next" onclick="plusSlides(1,1)">&#10094;</a>
+			<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
 		</div>
 		<!-- The dots/circles -->
 		<div style="text-align:center">
