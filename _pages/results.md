@@ -2,7 +2,7 @@
 layout: page
 title: Results
 permalink: /results/
-description: Some results I have contributed to.  
+description: Some results I contributed to.  
 nav: true
 horizontal: false
 ---

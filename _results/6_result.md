@@ -3,7 +3,7 @@ name: Universal bound on the relaxation rates of maps solving a quantum master e
 description:
 ---
 <h4> 
-Bound on the relaxation rates of solutions a quantum master equation
+Bound on the Relaxation Rates of Solutions a Quantum Master Equation
 </h4>
 
 <div class="row">
