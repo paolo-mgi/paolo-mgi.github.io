@@ -14,7 +14,6 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
-    gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
     gem 'observer'
@@ -23,6 +22,6 @@ group :jekyll_plugins do
     gem 'ostruct'
 end
 
-gem "logger", "~> 1.6"
-
-gem "base64", "~> 0.2.0"
+gem 'puma'
+gem 'logger', '~> 1.6'
+gem 'base64', '~> 0.2.0'
