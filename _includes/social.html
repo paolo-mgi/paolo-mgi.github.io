@@ -19,9 +19,9 @@
             {%- if site.adsauthor_id -%}
             <a href="https://ui.adsabs.harvard.edu/search/q=author%3A{{ site.adsauthor_id  }}&sort=date+desc" title="ADS"><i class="ai ai-ads"></i></a>
             {% endif %}
-	    {%- if site.scix_id -%}
+	    {% if site.scix_id %}
             <a href="https://scixplorer.org{{ site.scix_id }}" title="SciX"><i class="ai ai-scix"></i></a>
-            {%- endif -%}	    
+            {% endif %}	    
             {% if site.semanticscholar_id %}
             <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
             {% endif %}
