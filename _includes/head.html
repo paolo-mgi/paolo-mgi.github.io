@@ -42,16 +42,3 @@
     <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
     <script src="{{ '/assets/js/dark_mode.js' | relative_url | bust_file_cache }}"></script>
     {% endif %}
-<style>
-  /* Force Academicons to use the CDN font exclusively */
-  @font-face {
-    font-family: 'Academicons';
-    src: url('https://jsdelivr.net') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  .ai {
-    font-family: 'Academicons' !important;
-    text-decoration: none !important; /* Removes the "live" underbar */
-  }
-</style>
