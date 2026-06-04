@@ -42,10 +42,3 @@
     <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
     <script src="{{ '/assets/js/dark_mode.js' | relative_url | bust_file_cache }}"></script>
     {% endif %}
-<!-- Force the latest Academicons directly -->
-<link rel="stylesheet" href="https://jsdelivr.net">
-<style>
-  /* This forces the browser to use the CDN font even if a local one exists */
-  .ai-scix::before { content: "\e933" !important; }
-  .ai { font-family: 'Academicons' !important; text-decoration: none !important; }
-</style>
