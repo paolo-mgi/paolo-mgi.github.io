@@ -19,7 +19,7 @@
             {%- if site.adsauthor_id -%}
             <a href="https://ui.adsabs.harvard.edu/search/q=author%3A{{ site.adsauthor_id  }}&sort=date+desc" title="ADS"><i class="ai ai-ads"></i></a>
             {% endif %}
-	    {%- if site.orcid_id -%}
+	    {%- if site.scix_id -%}
 	    <a href="https://scixplorer.org{{ site.orcid_id }}&sort=date+desc" title="SciX"> <i class="ai ai-scix"></i></a>
             {%- endif -%}	    
             {% if site.semanticscholar_id %}
