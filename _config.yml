@@ -49,6 +49,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
+# 
+#   _includes/social.html     modify to add acadeicons
 # -----------------------------------------------------------------------------
 
 github_username: paolo-mgi # your GitHub user name
