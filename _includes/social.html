@@ -19,6 +19,11 @@
             {%- if site.adsauthor_id -%}
             <a href="https://ui.adsabs.harvard.edu/search/q=author%3A{{ site.adsauthor_id  }}&sort=date+desc" title="ADS"><i class="ai ai-ads"></i></a>
             {% endif %}
+{% if site.ads_id %}
+<a href="https://scixplorer.org/{{ site.ads_id }}" title="NASA SciX">
+  <img src="{{ '/assets/img/scix.svg' | relative_url }}" alt="SciX Logo" style="width:1.2rem; height:1.2rem; vertical-align:middle;">
+</a>
+{% endif %}
 {% comment %}
 	    {% if site.scix_id %}
             <a href="https://scixplorer.org/search/q=author%3A{{ site.scix_id }}&sort=date+desc" title="SciX"><i class="ai ai-scix"></i>
