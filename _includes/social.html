@@ -20,10 +20,9 @@
             <a href="https://ui.adsabs.harvard.edu/search/q=author%3A{{ site.adsauthor_id  }}&sort=date+desc" title="ADS"><i class="ai ai-ads"></i></a>
             {% endif %}
 {% if site.ads_id %}
-  {% capture scix_query %}author:"{{ site.ads_id }}"{% endcapture %}
-  <a href="https://scixplorer.org{{ scix_query | url_encode }}" title="NASA SciX / ADS Profile">
-    <img src="{{ '/assets/img/scix.svg' | relative_url }}" class="scix-icon-style" alt="SciX Logo">
-  </a>
+<a href="https://scixplorer.org{{ site.ads_id }}" title="NASA SciX / ADS Profile">
+  <img src="{{ '/assets/img/scix.svg' | relative_url }}" class="scix-icon-style" alt="SciX Logo">
+</a>
 {% endif %}
 {% comment %}
 	    {% if site.scix_id %}
