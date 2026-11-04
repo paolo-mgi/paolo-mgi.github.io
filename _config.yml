@@ -235,7 +235,10 @@ minify: false
 # CSS/SASS minify
 sass:
   style: compressed
-
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - assets/css
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
