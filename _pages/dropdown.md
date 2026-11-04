@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /pages/custom-dropdown/
 title: submenus
 nav: false
 dropdown: true

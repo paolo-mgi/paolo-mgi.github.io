@@ -1,31 +1,14 @@
----
-layout: parse
----
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
-
-  <!-- Head -->
-  <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
-  {%- endif -%}
-  {% include head.html %}
-  </head>
-
-  <!-- Body -->
-  <body class="{%- if site.navbar_fixed -%}fixed-top-nav{%- endif -%} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-
-    <!-- Header -->
-    {%- include header.html %}
-
-    <!-- Content -->
-    <div class="container mt-5">
-      {{ content }}
-    </div>
-
-    <!-- Footer -->
-    {%- include footer.html %}
-  </body>
-
-  {% include scripts.liquid %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <main class="container mt-5">
+    {{ content }}
+  </main>
+</body>
 </html>
