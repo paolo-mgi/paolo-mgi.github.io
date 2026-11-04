@@ -1,11 +1,11 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-repository: paolo-mgi/paolo-mgi.github.io 
+#repository: paolo-mgi/paolo-mgi.github.io 
 title: Paolo Muratore-Ginanneschi # the website title (if blank, full name will be used instead)
 first_name: Paolo
 last_name: Muratore-Ginanneschi
-#email: paolo.muratore-ginanneschi@helsinki.fi
+contact_note: ""
 description: Welcome to my webpage! # the ">" symbol means to ignore newlines until "footer_text:" Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
