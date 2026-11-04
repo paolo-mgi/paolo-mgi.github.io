@@ -1,4 +1,6 @@
----
----
+@import url("../../_sass/variables.scss");
+@import url("../../_sass/base.scss");
+@import url("../../_sass/layout.scss");
+@import url("../../_sass/themes.scss");
+@import url("../../_sass/custom.scss");
 
-@import "main";
