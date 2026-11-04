@@ -189,6 +189,7 @@ exclude:
   - _site
   - .jekyll-cache
   - .jekyll-metadata
+  - _sass
   - bin
   - Gemfile
   - Gemfile.lock
