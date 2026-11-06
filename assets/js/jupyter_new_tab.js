@@ -1,18 +1,1 @@
-$(document).ready(function () {
-  // Let external links in jupyter notebooks open in new tab
-  let jupyterNotebooks = $(".jupyter-notebook-iframe-container");
-  jupyterNotebooks.each(function () {
-    let iframeBody = $(this).find("iframe").get(0).contentWindow.document.body;
-    // Get all <a> elements in the bodyElement
-    let links = $(iframeBody).find("a");
-
-    // Loop through each <a> element
-    links.each(function () {
-      // Check if the <a> element has an 'href' attribute
-      if ($(this).attr("href")) {
-        // Set the 'target' attribute to '_blank' to open the link in a new tab/window
-        $(this).attr("target", "_blank");
-      }
-    });
-  });
-});
+document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelectorAll(".jupyter-notebook-iframe-container iframe"),t=e=>{try{const t=e.contentDocument||e.contentWindow?.document;if(!t||!t.body)return;t.querySelectorAll("a[href]").forEach(e=>{e.setAttribute("target","_blank");const t=(e.getAttribute("rel")||"").split(/\s+/).filter(Boolean);t.includes("noopener")||t.push("noopener"),t.includes("noreferrer")||t.push("noreferrer"),e.setAttribute("rel",t.join(" "))})}catch(e){}};e.forEach(e=>{"complete"===e.contentDocument?.readyState&&t(e),e.addEventListener("load",()=>t(e))})});
