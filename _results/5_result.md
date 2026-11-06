@@ -1,4 +1,5 @@
 ---
+title: "Stochastic Schrödinger equation for completely bounded dynamical maps"
 name: Stochastic Schr&ouml;dinger equation for completely bounded dynamical maps
 description: Markovian dynamics on the system's Bloch hyper-sphere.
 ---
@@ -24,14 +25,14 @@ Unraveling of Completely Bounded Dynamical Maps
         	{% include figure.html path="assets/img/Times_Sine.jpg" title="Gaussian underdamped" class="img-fluid rounded z-depth-1" caption="Crossover in computation time between master equation and quantum trajectories."%}
     	    </div>
   			<!-- Next and previous buttons -->
-  	    	<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
-  	    	<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+  	    	<a class="prev" onclick="resultsPlusSlides(-1,1)">&#10094;</a>
+  	    	<a class="next" onclick="resultsPlusSlides(1,1)">&#10095;</a>
 		</div>
 	<!-- The dots/circles -->
 	<div style="text-align:center">
-  		<span class="dot" onclick="currentSlide(1,1)"></span>
-  		<span class="dot" onclick="currentSlide(2,1)"></span>
-  		<span class="dot" onclick="currentSlide(3,1)"></span>
+  		<span class="dot" onclick="resultsCurrentSlide(1,1)"></span>
+  		<span class="dot" onclick="resultsCurrentSlide(2,1)"></span>
+  		<span class="dot" onclick="resultsCurrentSlide(3,1)"></span>
 	</div>
    </div>
     <div class="col-sm-6 mt-3 mt-md-0">

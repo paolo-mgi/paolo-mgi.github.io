@@ -18,4 +18,4 @@ category: work
 - [Conference From Field Theory to Non-Equilibrium](http://www.fuw.edu.pl/%7Esuszek/K-Fest_2017.html),  in honour of Krzysztof Gawędzki on the occasion of his 70th birthday, June 19-21, 2017, Nice, France
 - Graduate Arctic School on Open Quantum Systems, Kilpisjärvi Finland, December 14-18, 2015.
 - Conference Mathematics meets Physics, Helsinki June 24-27, 2014.
-- [Workshop Networks and Algorithms: complexity in Mathematics, Physics and Computer Science](http://mathstat.helsinki.fi/mathphys/evergrow.html) Helsinki, June 16 - 19, 2005.
+- Workshop Networks and Algorithms: complexity in Mathematics, Physics and Computer Science, Helsinki, June 16 - 19, 2005.

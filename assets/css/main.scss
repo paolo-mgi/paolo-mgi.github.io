@@ -1,3 +1,124 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@import "main";
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+// Migration workaround: keep the expanded desktop navigation visible.
+// 576px is Bootstrap's standard navbar-expand-sm breakpoint.
+@media (min-width: 576px) {
+  #navbar #navbarNav {
+    visibility: visible;
+  }
+}
+// Enlarge bibliography abbreviation badges.
+[role="main"] .abbr .badge {
+display: inline-block;
+font-size: 0.75rem;
+line-height: 0.85;
+padding: 0.4em 0.85em;
+}
+
+// Restore readable colors for the fixed footer.
+footer.fixed-bottom,
+footer.fixed-bottom > .container {
+  color: var(--global-footer-text-color, #e0e0e0);
+}
+
+footer.fixed-bottom a {
+  color: var(--global-footer-link-color, #ffffff);
+}
+
+footer.fixed-bottom a:hover {
+  color: var(--global-theme-color);
+}
+
+// Projects: restore the horizontal card arrangement.
+.projects .row.row-cols-2 {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 0;
+}
+
+.projects .row.row-cols-2 > .card-item {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  padding: 0;
+}
+
+// Picture and text inside each card.
+.projects .card-item .card > .row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  margin: 0;
+}
+
+.projects .card-item .card > .row > .col-md-6,
+.projects .card-item .card > .row > .col-md-12 {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+.projects .card-item .card > .row > .col-md-12 {
+  grid-column: 1 / -1;
+}
+
+.projects .card-img figure {
+  margin: 0;
+}
+
+.projects .card-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .projects .row.row-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .projects .card-item .card > .row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+// Smaller project titles, preserving their original capitalization.
+.projects .card-title {
+  text-transform: none !important;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+

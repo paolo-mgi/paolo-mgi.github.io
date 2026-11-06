@@ -1,4 +1,5 @@
 ---
+title: "Multiscaling in the Kraichnan model"
 name: Multiscaling in the Kraichnan model
 description: Field theory methods and martingales.
 ---

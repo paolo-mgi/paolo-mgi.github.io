@@ -1,4 +1,5 @@
 ---
+title: "Functional determinants for path integral calculus"
 name: Functional determinants for path integral calculus
 description: Gutzwiller trace formula.
 ---

@@ -4,6 +4,7 @@ title: Results
 permalink: /results/
 description: Some results I contributed to.  
 nav: true
+nav_order: 2
 horizontal: false
 ---
 <!-- here the info stored in the dir _results is organized for display-->
@@ -110,24 +111,50 @@ horizontal: false
 </style>
 
 <script>
-var slideIndex = [1,1];
-/* Class the members of each slideshow group with different CSS classes */
-var slideId = ["mySlides_Landauer", "mySlides_Influence"]
-showSlides(1, 0);
-showSlides(1, 1);
+(function () {
+  const groups = [
+    "mySlides_LGKS",
+    "mySlides_Influence",
+    "mySlides_Landauer"
+  ];
+  const indices = [1, 1, 1];
 
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
+  function showResultSlide(number, group) {
+    if (!Number.isInteger(group) || group < 0 || group >= groups.length) return;
 
-function showSlides(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+    const slides = document.getElementsByClassName(groups[group]);
+    if (!slides.length) return;
+
+    if (number > slides.length) number = 1;
+    if (number < 1) number = slides.length;
+    indices[group] = number;
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.setProperty("display", "none", "important");
+    }
+
+    slides[number - 1].style.setProperty("display", "block", "important");
   }
-  x[slideIndex[no]-1].style.display = "block";
-} 
+
+  window.resultsPlusSlides = function (step, group) {
+    showResultSlide(indices[group] + step, group);
+  };
+
+  window.resultsCurrentSlide = function (number, group) {
+    showResultSlide(number, group);
+  };
+
+  function initialize() {
+    groups.forEach(function (_, group) {
+      showResultSlide(1, group);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialize);
+  } else {
+    initialize();
+  }
+})();
 </script>
+

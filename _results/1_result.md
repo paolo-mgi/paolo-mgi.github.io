@@ -1,4 +1,5 @@
 ---
+title: "Strong Anomalous Diffusion"
 name: Strong Anomalous Diffusion
 description: A numerical phenomenological study.
 ---
